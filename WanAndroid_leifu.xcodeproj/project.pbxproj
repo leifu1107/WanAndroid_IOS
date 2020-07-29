@@ -87,17 +87,17 @@
 		6806AD6A2486362500342E82 /* HotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotCell.swift; sourceTree = "<group>"; };
 		6806AD6C2487447500342E82 /* UiColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiColor+Extensions.swift"; sourceTree = "<group>"; };
 		6806AD6F24874FD400342E82 /* MyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVC.swift; sourceTree = "<group>"; };
-		680D67F3242DEBB600DD7665 /* WanAndroid_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanAndroid_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680D67F3242DEBB600DD7665 /* WanAndroid_leifu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanAndroid_leifu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		680D67F6242DEBB600DD7665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		680D67FA242DEBB600DD7665 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		680D67FC242DEBBB00DD7665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		680D67FF242DEBBB00DD7665 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		680D6802242DEBBB00DD7665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		680D6804242DEBBB00DD7665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		680D6809242DEBBC00DD7665 /* WanAndroid_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroid_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680D6809242DEBBC00DD7665 /* WanAndroid_leifuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroid_leifuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680D680D242DEBBC00DD7665 /* WanAndroid_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanAndroid_IOSTests.swift; sourceTree = "<group>"; };
 		680D680F242DEBBC00DD7665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		680D6814242DEBBC00DD7665 /* WanAndroid_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroid_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		680D6814242DEBBC00DD7665 /* WanAndroid_leifuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanAndroid_leifuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		680D6818242DEBBC00DD7665 /* WanAndroid_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanAndroid_IOSUITests.swift; sourceTree = "<group>"; };
 		680D681A242DEBBC00DD7665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		680D6826242DF59900DD7665 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -202,9 +202,9 @@
 		680D67F4242DEBB600DD7665 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				680D67F3242DEBB600DD7665 /* WanAndroid_IOS.app */,
-				680D6809242DEBBC00DD7665 /* WanAndroid_IOSTests.xctest */,
-				680D6814242DEBBC00DD7665 /* WanAndroid_IOSUITests.xctest */,
+				680D67F3242DEBB600DD7665 /* WanAndroid_leifu.app */,
+				680D6809242DEBBC00DD7665 /* WanAndroid_leifuTests.xctest */,
+				680D6814242DEBBC00DD7665 /* WanAndroid_leifuUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -448,9 +448,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		680D67F2242DEBB600DD7665 /* WanAndroid_IOS */ = {
+		680D67F2242DEBB600DD7665 /* WanAndroid_leifu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 680D681D242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_IOS" */;
+			buildConfigurationList = 680D681D242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_leifu" */;
 			buildPhases = (
 				73B479B9B491D8296E789668 /* [CP] Check Pods Manifest.lock */,
 				680D67EF242DEBB600DD7665 /* Sources */,
@@ -462,14 +462,14 @@
 			);
 			dependencies = (
 			);
-			name = WanAndroid_IOS;
+			name = WanAndroid_leifu;
 			productName = WanAndroid_IOS;
-			productReference = 680D67F3242DEBB600DD7665 /* WanAndroid_IOS.app */;
+			productReference = 680D67F3242DEBB600DD7665 /* WanAndroid_leifu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		680D6808242DEBBC00DD7665 /* WanAndroid_IOSTests */ = {
+		680D6808242DEBBC00DD7665 /* WanAndroid_leifuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 680D6820242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_IOSTests" */;
+			buildConfigurationList = 680D6820242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_leifuTests" */;
 			buildPhases = (
 				680D6805242DEBBC00DD7665 /* Sources */,
 				680D6806242DEBBC00DD7665 /* Frameworks */,
@@ -480,14 +480,14 @@
 			dependencies = (
 				680D680B242DEBBC00DD7665 /* PBXTargetDependency */,
 			);
-			name = WanAndroid_IOSTests;
+			name = WanAndroid_leifuTests;
 			productName = WanAndroid_IOSTests;
-			productReference = 680D6809242DEBBC00DD7665 /* WanAndroid_IOSTests.xctest */;
+			productReference = 680D6809242DEBBC00DD7665 /* WanAndroid_leifuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		680D6813242DEBBC00DD7665 /* WanAndroid_IOSUITests */ = {
+		680D6813242DEBBC00DD7665 /* WanAndroid_leifuUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 680D6823242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_IOSUITests" */;
+			buildConfigurationList = 680D6823242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_leifuUITests" */;
 			buildPhases = (
 				680D6810242DEBBC00DD7665 /* Sources */,
 				680D6811242DEBBC00DD7665 /* Frameworks */,
@@ -498,9 +498,9 @@
 			dependencies = (
 				680D6816242DEBBC00DD7665 /* PBXTargetDependency */,
 			);
-			name = WanAndroid_IOSUITests;
+			name = WanAndroid_leifuUITests;
 			productName = WanAndroid_IOSUITests;
-			productReference = 680D6814242DEBBC00DD7665 /* WanAndroid_IOSUITests.xctest */;
+			productReference = 680D6814242DEBBC00DD7665 /* WanAndroid_leifuUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -526,7 +526,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 680D67EE242DEBB600DD7665 /* Build configuration list for PBXProject "WanAndroid_IOS" */;
+			buildConfigurationList = 680D67EE242DEBB600DD7665 /* Build configuration list for PBXProject "WanAndroid_leifu" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -539,9 +539,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				680D67F2242DEBB600DD7665 /* WanAndroid_IOS */,
-				680D6808242DEBBC00DD7665 /* WanAndroid_IOSTests */,
-				680D6813242DEBBC00DD7665 /* WanAndroid_IOSUITests */,
+				680D67F2242DEBB600DD7665 /* WanAndroid_leifu */,
+				680D6808242DEBBC00DD7665 /* WanAndroid_leifuTests */,
+				680D6813242DEBBC00DD7665 /* WanAndroid_leifuUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -694,12 +694,12 @@
 /* Begin PBXTargetDependency section */
 		680D680B242DEBBC00DD7665 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 680D67F2242DEBB600DD7665 /* WanAndroid_IOS */;
+			target = 680D67F2242DEBB600DD7665 /* WanAndroid_leifu */;
 			targetProxy = 680D680A242DEBBC00DD7665 /* PBXContainerItemProxy */;
 		};
 		680D6816242DEBBC00DD7665 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 680D67F2242DEBB600DD7665 /* WanAndroid_IOS */;
+			target = 680D67F2242DEBB600DD7665 /* WanAndroid_leifu */;
 			targetProxy = 680D6815242DEBBC00DD7665 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -889,7 +889,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndroid_IOS.app/WanAndroid_IOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndroid_leifu.app/WanAndroid_leifu";
 			};
 			name = Debug;
 		};
@@ -910,7 +910,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndroid_IOS.app/WanAndroid_IOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WanAndroid_leifu.app/WanAndroid_leifu";
 			};
 			name = Release;
 		};
@@ -955,7 +955,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		680D67EE242DEBB600DD7665 /* Build configuration list for PBXProject "WanAndroid_IOS" */ = {
+		680D67EE242DEBB600DD7665 /* Build configuration list for PBXProject "WanAndroid_leifu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				680D681B242DEBBC00DD7665 /* Debug */,
@@ -964,7 +964,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		680D681D242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_IOS" */ = {
+		680D681D242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_leifu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				680D681E242DEBBC00DD7665 /* Debug */,
@@ -973,7 +973,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		680D6820242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_IOSTests" */ = {
+		680D6820242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_leifuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				680D6821242DEBBC00DD7665 /* Debug */,
@@ -982,7 +982,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		680D6823242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_IOSUITests" */ = {
+		680D6823242DEBBC00DD7665 /* Build configuration list for PBXNativeTarget "WanAndroid_leifuUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				680D6824242DEBBC00DD7665 /* Debug */,
