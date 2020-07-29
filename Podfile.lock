@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HandyJSON (5.0.1)
+  - JXSegmentedView (1.0.5)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - LGButton (1.1.6)
+  - LLCycleScrollView (1.6.0):
+    - Kingfisher
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.3.1)
+  - Pageboy (3.5.1)
+  - PrintBeautifulLog (1.0.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - SnapKit (4.2.0)
+  - SnapKitExtend (1.0.7):
+    - SnapKit
+  - SVProgressHUD (2.2.5)
+  - Tabman (2.8.0):
+    - Pageboy (~> 3.5.0)
+  - Then (2.6.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - JXSegmentedView
+  - LGButton
+  - LLCycleScrollView
+  - MBProgressHUD
+  - MJRefresh
+  - PrintBeautifulLog
+  - Reusable
+  - SnapKitExtend
+  - SVProgressHUD
+  - Tabman
+  - Then
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - HandyJSON
+    - JXSegmentedView
+    - Kingfisher
+    - LGButton
+    - LLCycleScrollView
+    - MBProgressHUD
+    - MJRefresh
+    - Pageboy
+    - PrintBeautifulLog
+    - Reusable
+    - SnapKit
+    - SnapKitExtend
+    - SVProgressHUD
+    - Tabman
+    - Then
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  JXSegmentedView: 46262e0ec86c951fd1be4a0b91de3d9b10cb9fff
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  LGButton: 9f0a7f9d3030e3f504108342f6b66d64a429371b
+  LLCycleScrollView: a08f666671f9fd1a205df9defebc3c217d59abc8
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  Pageboy: 288353d4cc848c24deec2f7542f325089247c136
+  PrintBeautifulLog: ae1edcf7af92ffcb1de3726d1545d043e861d2e0
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SnapKitExtend: 00ee4db6d1f80bee01a1e75745f2a6ae695ba662
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Tabman: f62ad94ee54a7d96e3fbab34f677d9ea4d38ece6
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 0b489cbd77dc6330100e7fb677e3b20464d1172c
+
+COCOAPODS: 1.8.4
