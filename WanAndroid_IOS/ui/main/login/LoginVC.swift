@@ -69,7 +69,7 @@ class LoginVC: UIViewController {
     lazy var gradientLayer = CAGradientLayer().then({
         $0.frame = self.btnLogin.bounds
         //设置渐变的主颜色
-        $0.colors = [UIColor.purple.cgColor, UIColor.brown.cgColor]
+        $0.colors = [UIColor.orange.cgColor, UIColor.systemBlue.cgColor]
     })
     
     lazy var btnLogin = UIButton().then({
