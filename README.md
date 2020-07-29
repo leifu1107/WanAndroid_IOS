@@ -18,8 +18,21 @@
 
 ## 主要开源框架
 
- - [RxJava](https://github.com/ReactiveX/RxJava)
- - [RxAndroid](https://github.com/ReactiveX/RxAndroid)
- 
-
-
+  - pod 'Moya'//网络二次封装
+  - pod 'PrintBeautifulLog'
+  - pod 'Alamofire'  #网络, '~> 4.7'
+  - pod 'MJRefresh' #刷新
+  - pod 'LLCycleScrollView' #轮播
+  - pod 'EmptyDataSet-Swift'
+  - pod 'MBProgressHUD'
+  - pod 'HandyJSON'
+  - pod 'Kingfisher' #图片
+  - pod 'Then' #语法糖
+  - pod 'SnapKit', '~> 4.2.0'
+  - pod 'SnapKitExtend' #自动布局扩展
+  - pod 'SVProgressHUD'
+  - pod 'MBProgressHUD'
+  - pod 'Reusable'  #可复用
+  - pod 'Tabman' #tab导航
+  - pod 'JXSegmentedView'
+  - pod 'Toast-Swift’, '~> 5.0.1'
